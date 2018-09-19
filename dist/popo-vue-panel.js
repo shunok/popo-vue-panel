@@ -1,5 +1,5 @@
 /*!
- * popo-vue-panel v1.0.0 (https://github.com/shunok/popo-vue-panel)
+ * popo-vue-panel v1.0.1 (https://github.com/shunok/popo-vue-panel)
  * (c) 2018 DaShun
  * Released under the MIT License.
  */
@@ -192,7 +192,7 @@ Object.defineProperty(exports, "__esModule", {
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 exports.default = {
-  props: ["target", "title", "className", "id"],
+  props: ["target", "title", "id"],
   render: function render(createElement) {
     var target = this.target,
         title = this.title;
