@@ -36,7 +36,9 @@ Add a script tag pointing to `dist/popo-vue-panel.min.js` *after* adding Vue.
 </head>
 <body>
   <div id="app">
-    <popo-vue-panel></popo-vue-panel>
+    <popo-vue-panel title="title" target="panel-id">
+        <div slot="center"></div>
+    </popo-vue-panel>
   </div>
 
   <script src="path/to/vue.js"></script>
@@ -57,6 +59,11 @@ Add a script tag pointing to `dist/popo-vue-panel.min.js` *after* adding Vue.
 | target         | Number  | String | panel id or panel map key              | 1                |
 | title          | String           | panel title                            | null             |
 
+## Slot Options
+
+| Props          | Type             | Values                                 | Default          |
+| -------------- |:-----------------|:---------------------------------------|:-----------------|
+| slot           | String           | head, center, left, right, foot        | center           |
 
 ## License
 popo-vue-panel is open source and released under the [MIT License](LICENSE).

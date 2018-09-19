@@ -1,6 +1,6 @@
 {
   "name": "popo-vue-panel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue panel fro popojs",
   "main": "dist/popo-vue-panel.js",
   "scripts": {

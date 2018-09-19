@@ -1,6 +1,6 @@
 <script>
 export default {
-  props: ["target", "title", "className", "id"],
+  props: ["target", "title", "id"],
   render: function(createElement) {
     const { target, title } = this;
     const list = [];
